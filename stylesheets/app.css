@@ -62,11 +62,11 @@ body {
 /* line 378, ../bower_components/foundation/scss/foundation/components/_global.scss */
 body {
   background: white;
-  color: #a0a0a0;
+  color: white;
   padding: 0;
   margin: 0;
   font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   line-height: 1;
   position: relative;
@@ -1623,10 +1623,10 @@ select {
 .panel.callout {
   border-style: solid;
   border-width: 1px;
-  border-color: #b6edff;
+  border-color: #e3e3e3;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
-  background: #ecfaff;
+  background: white;
 }
 /* line 52, ../bower_components/foundation/scss/foundation/components/_panels.scss */
 .panel.callout > :first-child {
@@ -1651,7 +1651,7 @@ select {
 }
 /* line 81, ../bower_components/foundation/scss/foundation/components/_panels.scss */
 .panel.callout a:not(.button) {
-  color: #008cba;
+  color: white;
 }
 /* line 86, ../bower_components/foundation/scss/foundation/components/_panels.scss */
 .panel.radius {
@@ -1916,13 +1916,13 @@ td {
 /* Default Link Styles */
 /* line 212, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a {
-  color: #008cba;
+  color: white;
   text-decoration: none;
   line-height: inherit;
 }
 /* line 218, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a:hover, a:focus {
-  color: #0078a0;
+  color: #dbdbdb;
 }
 /* line 225, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a img {
@@ -1933,7 +1933,7 @@ a img {
 /* line 229, ../bower_components/foundation/scss/foundation/components/_type.scss */
 p {
   font-family: inherit;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 1.25rem;
@@ -1956,8 +1956,8 @@ p aside {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-style: 300;
-  color: #f47a27;
+  font-style: 400;
+  color: white;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -1966,7 +1966,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 257, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-size: 60%;
-  color: #f8a973;
+  color: white;
   line-height: 0;
 }
 
@@ -2003,8 +2003,8 @@ h6 {
 /* line 271, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .subheader {
   line-height: 1.4;
-  color: #f8a973;
-  font-weight: 300;
+  color: white;
+  font-weight: 400;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
 }
@@ -2134,7 +2134,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #a0a0a0;
+  color: white;
   border-bottom: 1px dotted #dddddd;
   cursor: help;
 }
@@ -2155,7 +2155,7 @@ blockquote {
 blockquote cite {
   display: block;
   font-size: 0.8125rem;
-  color: #f79959;
+  color: white;
 }
 /* line 396, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite:before {
@@ -2164,14 +2164,14 @@ blockquote cite:before {
 /* line 401, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite a,
 blockquote cite a:visited {
-  color: #f79959;
+  color: white;
 }
 
 /* line 407, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #f8a973;
+  color: white;
 }
 
 /* Microformats */
@@ -2350,46 +2350,55 @@ blockquote p {
 }
 /*@import "foundation";*/
 /* line 44, ../scss/app.scss */
+body {
+  background: url(img/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 52, ../scss/app.scss */
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-/* line 48, ../scss/app.scss */
+/* line 56, ../scss/app.scss */
 .bg-dark {
   background-color: #f7f6f6;
 }
 
-/* line 52, ../scss/app.scss */
+/* line 60, ../scss/app.scss */
 .bg-orange {
-  background-color: #f47a27;
+  background-color: white;
 }
 
 @media only screen and (min-width: 64.063em) {
-  /* line 57, ../scss/app.scss */
+  /* line 65, ../scss/app.scss */
   .large-12 h1 {
     text-align: center;
   }
 }
-/* line 63, ../scss/app.scss */
+/* line 71, ../scss/app.scss */
 .next-meeting h1 {
   color: black;
 }
 
-/* line 67, ../scss/app.scss */
+/* line 75, ../scss/app.scss */
 .next-meeting h1 em {
   font-weight: bold;
   font-style: normal;
-  color: #f47a27;
+  color: white;
 }
 
-/* line 73, ../scss/app.scss */
+/* line 81, ../scss/app.scss */
 .calendar-icon {
   background: url("img/calendar-icon.png") no-repeat;
   background-position: 0px 2px;
   padding-left: 30px;
 }
 
-/* line 79, ../scss/app.scss */
+/* line 87, ../scss/app.scss */
 .place-icon {
   background: url("img/place-icon.png") no-repeat;
   background-position: 0px 2px;
@@ -2397,17 +2406,43 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media only screen and (min-width: 64.063em) {
-  /* line 86, ../scss/app.scss */
+  /* line 94, ../scss/app.scss */
   .calendar-icon, .place-icon {
     padding-left: 10px;
   }
 
-  /* line 89, ../scss/app.scss */
+  /* line 97, ../scss/app.scss */
   .meeting-details-icon-row {
     text-align: center;
   }
+
+  /* line 101, ../scss/app.scss */
+  .valign {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    margin-top: -250px;
+  }
+
+  /* line 108, ../scss/app.scss */
+  .valign-inner {
+    margin: auto;
+    height: 250px;
+  }
 }
-/* line 94, ../scss/app.scss */
+/* line 113, ../scss/app.scss */
+a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* line 117, ../scss/app.scss */
 .large-2 img {
-  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background: inherit;
+  border-radius: 10%;
+  /*circle*/
+  transform: scaleX(2) scaleY(1.05);
 }
