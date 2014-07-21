@@ -2442,7 +2442,5 @@ a {
   margin-top: 20px;
   margin-bottom: 50px;
   background: inherit;
-  border-radius: 10%;
-  /*circle*/
-  transform: scaleX(2) scaleY(1.05);
+  border-radius: 10%; 
 }
