@@ -4,100 +4,248 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Swift Warsaw</title>
-    <link rel="stylesheet" href="stylesheets/app.css" />
-    <script src="bower_components/modernizr/modernizr.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100italic,100,300,300italic,400italic,500,500italic,700,700italic,900,900italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css" />
   </head>
   <body>
+    <div id="fakebackground">
+      <header id="home">
+        <div>
+          <span class="name">Swift<b>Warsaw</b></span>
+          <nav>
+            <a href="#home" class="selected">Home</a>
+            <a href="#about">About</a>
+            <a href="#when">When</a>
+            <a href="#where">Where</a>
+            <a href="#who">Who</a>
+            <a href="#what">What</a>
+            <a href="#contact">Contact</a>
+            <a href="#when" class="white small button">Join</a>
+          </nav>
+          <div class="clear"></div>
+          <h1>Meetup in Warsaw for Swift Lovers</h1>
+          <h3>Next In:</h3>
+          <div class="counter">
+            <div class="days">
+              <strong>8</strong>
+              Days
+            </div>
+            <div class="hours">
+              <strong>25</strong>
+              Hours
+            </div>
+            <div class="minutes">
+              <strong>56</strong>
+              Minutes
+            </div>
+            <div class="seconds">
+              <strong>20</strong>
+              Seconds
+            </div>
+          </div>
+        </div>
+      </header>
 
-  <div class="valign">
-      <div class="valign-inner">
-  <div class="row">
-      <div class="large-2 small-centered columns">
-          <img src="stylesheets/img/logo.png">
+      <div class="sticky">
+        <div>
+          <span class="name">Swift<b>Warsaw</b></span>
+          <a href="#" class="hamburger fa fa-align-justify"></a>
+          <nav>
+            <a href="#home" class="selected">Home</a>
+            <a href="#about">About</a>
+            <a href="#when">When</a>
+            <a href="#where">Where</a>
+            <a href="#who">Who</a>
+            <a href="#what">What</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
       </div>
-  </div>
 
-  <!--First section, why/etc.-->
- <div class=" row">
-      <div class="large-8 small-centered columns">
-          <h1>Swift Warsaw</h1>
-
-          <p>
-            Monthly meetup for <a href="https://developer.apple.com/swift/">Swift</a> developers. In Warsaw, Poland.
-          </p>
-
-          <p>
-            The Real Website™ is not ready yet.
-          </p>
-
-          <h2>Swift Warsaw #3</h2>
-
-          <p>
-            The third Swift Warsaw meetup will happen on the last Thursday of September, the 25th. We'll be meeting at the Macoscope office at Cegłowska 29. 
-          </p>
-
-          <ul>
-            <li><a href="https://www.facebook.com/events/807614139299541/">Facebook Event</a></li>
-            <li><a href="http://www.meetup.com/Swift-Warsaw/events/205257052/">Meetup Event</a></li>
-          </ul>
-
-          <h2>Social</h2>
-
-          <ul>
-            <li><a href="https://github.com/SwiftWarsaw/SwiftWarsaw">GitHub</a></li>
-            <li><a href="https://twitter.com/swiftwarsaw">Twitter</a></li>
-            <li><a href="https://www.facebook.com/swiftwarsaw">Facebook</a></li>
-            <li><a href="http://www.meetup.com/Swift-Warsaw/">Meetup</a></li>
-          </ul>
-
-          <hr />
-          <h1> Past: </h1>
-
-          <h2>Swift Warsaw #2</h2>
-
-          <p>
-            The second Swift Warsaw meetup happened on the last Thursday of August, the 28th.</p>
-          </p>
-
-          <p>
-            There were three talks:
-          </p>
-
-          <ul>
-            <li><a href="https://github.com/SwiftWarsaw/SwiftWarsaw/blob/master/meetups/2.md#last-month-in-swift">Last month in Swift</a> by Wojtek Czekalski</li>
-            <li><a href="https://github.com/SwiftWarsaw/SwiftWarsaw/blob/master/meetups/2.md#laziness-in-swift">Laziness in Swift</a> by Maciej Konieczny</li>
-            <li><a href="https://github.com/SwiftWarsaw/SwiftWarsaw/blob/master/meetups/2.md#swift-learning-from-scala-futures">Swift learning from Scala: Futures</a> by Grzegorz Kossakowski</li>
-          </ul>
-
-          <p>
-            Details, videos, and slides are on <a href="https://github.com/SwiftWarsaw/SwiftWarsaw/blob/master/meetups/2.md">GitHub</a>.
-          </p>
-
-
-
-          <h2>Swift Warsaw #1</h2>
-
-          <p>
-            We had our first meetup at the end of July.
-          </p>
-
-          <p>
-            There were three talks:
-          </p>
-
-          <ul>
-            <li><a href="https://github.com/SwiftWarsaw/SwiftWarsaw/blob/master/meetups/1.md#swiftroduction---introduction-to-swift">Swiftroduction - Introduction to Swift</a> by Łukasz Kuczborski</li>
-            <li><a href="https://github.com/SwiftWarsaw/SwiftWarsaw/blob/master/meetups/1.md#swift-in-flux">Swift In Flux</a> by Jan Klausa</li>
-            <li><a href="https://github.com/SwiftWarsaw/SwiftWarsaw/blob/master/meetups/1.md#swift-dsl-toolbelt">Swift DSL Toolbelt</a> by Krzysztof Siejkowski</li>
-          </ul>
-
-          <p>
-            Details, videos, and slides are on <a href="https://github.com/SwiftWarsaw/SwiftWarsaw/blob/master/meetups/1.md">GitHub</a>.
-          </p>
-
+      <div class="gray background">
+        <section id="about">
+          <div class="half">
+          <h2>Why?</h2>
+            <p>
+                Quite simply - because it was a meetup <em>we</em> wanted to attend to. We're all enthusiasts of developing on Apple platforms and we wanted a space where we could
+                discuss recent developments with fellow-minded developers.
+            </p>
+          </div>
+          <div class="half">
+          <h2>For whom?</h2>
+            <p>
+                For <strong>everyone</strong>! We aim to cover a wide range of topics - from basic, introductory talks to more technical ones that delve into the nitty-gritty details.
+                If you're interested in Swift in any shape or form - you're invited to join us! You may also want to take a look at <a href="https://github.com/SwiftWarsaw/SwiftWarsaw/blob/master/guide.md">guide</a>.
+            </p>
+          </div>
+          <span class="clear"></span>
+        </section>
       </div>
-  </div>
-  </div>
-  </div>
+
+      <section id="when">
+        <h2>Next Meeting</h2>
+        <h2 class="black">Swift Warsaw <strong>#4</strong></h2>
+        <div class="half">
+          <span class="date to right">Thursday 27.11.2014, 7PM</span>
+        </div>
+        <div class="half">
+          <span class="location to left">Macoscope, Cegłowska 29</span>
+        </div>
+        <div class="clear"></div>
+        <p>
+            We're happy to announce our fourth meetup - Swift Warsaw #4. We hope to see you all
+            on Thursday, the 27th of November. 
+            As usual, our meetup will take place in Macoscope offices, at Cegłowska 29.
+        </p>
+        <p>
+            This is going to be our best event yet - come and find out for yourself! 
+        </p>
+
+        <div class="half">
+          <a class="orange button to left">Facebook Event</a>
+        </div>
+        <div class="half">
+          <a class="orange button to right">Meetup Event</a>
+        </div>
+        <span class="clear"></span>
+      </section>
+
+      <section id="where">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2440.730252444133!2d20.95349200000001!3d52.284599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecbd3ccec6fb1%3A0xbc7b2641186a73f4!2sCeg%C5%82owska+29%2C+Warszawa%2C+Poland!5e0!3m2!1sen!2s!4v1406489320825" width="100%" height="350px" frameborder="0" style="border:0"></iframe>
+      </section>
+
+      <div class="gray background">
+        <section id="who">
+          <h2>Speakers</h2>
+          <div class="speaker">
+            <img src="img/speakers/kylefuller.png"/>
+            <span class="name">Kyle Fuller</span>
+            <span class="description">"A Swift Approach"</span>
+            <div class="links">
+              <a href="http://github.com/kylef" class="fa-github"></a>
+              <a href="https://twitter.com/kylefuller" class="fa-twitter"></a>
+              <span class="clear"></span>
+            </div>
+          </div>
+          <div class="speaker">
+            <img src="img/speakers/kamilborzym.jpg"/>
+            <span class="name">Kamil Borzym</span>
+            <span class="description">"Swift Runtime"</span>
+            <div class="links">
+              <a href="http://github.com/kam800" class="fa-github"></a>
+              <a href="https://twitter.com/kam800" class="fa-twitter"></a>
+              <span class="clear"></span>
+            </div>
+          </div>
+          <span class="clear"></span>
+        </section>
+      </div>
+      <section id="what">
+        <div class="agenda">
+          <h2>Agenda</h2>
+          <div class="item">
+            <img src="img/welcome.png"/>
+            <span class="time">19:00</span>
+            <span class="title">Welcome</span>
+            </p>
+          </div>
+          <div class="item">
+            <img src="img/speakers/kylefuller.png"/>
+            <span class="time">19:15</span>
+            <span class="name">Kyle Fuller</span>
+            <span class="title">"A Swift Approach"</span>
+          </div>
+          <div class="item">
+            <img src="img/speakers/kamilborzym.jpg"/>
+            <span class="time">19:40</span>
+            <span class="name">Kamil Borzym</span>
+            <span class="title">"Swift Runtime"</span>
+          </div>
+          <div class="item">
+            <img src="img/beer.png"/>
+            <span class="time">20:00 - ??:??</span>
+            <span class="name">Afterparty</span>
+            <p>
+                There will be a round of beer sponsored by Macoscope, but feel free to BYOB! 
+            </p>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </section>
+
+      <div class="gray background">
+        <section id="creators">
+          <h2>Creators</h2>
+          <div class="creator">
+            <img src="http://s.gravatar.com/avatar/6f0f1219141aae273a0ae85c01c1d27b?s=240"/>
+            <span class="name">Łukasz Kuczborski</span>
+            <div class="links">
+              <a href="https://github.com/lkuczborski" class="fa-github"></a>
+              <a href="https://facebook.com/lkuczborski" class="fa-facebook"></a>
+              <a href="https://twitter.com/lkuczborski" class="fa-twitter"></a>
+              <span class="clear"></span>
+            </div>
+          </div>
+          <div class="creator">
+            <img src="http://0.gravatar.com/avatar/6f55536bcb0df0186d85a35ddca12c71?s=300"/>
+            <span class="name">Maciej Sienkiewicz</span>
+            <div class="links">
+              <a href="https://github.com/niczyja" class="fa-github"></a>
+              <span class="clear"></span>
+            </div>
+          </div>
+          <div class="creator">
+            <img src="http://en.gravatar.com/userimage/35389809/129ca70290da9240a762375a32fd3822.jpg?size=300"/>
+            <span class="name">Wojtek Czekalski</span>
+            <div class="links">
+              <a href="http://wczekalski.com/" class="fa-link"></a>
+              <a href="https://github.com/wczekalski" class="fa-github"></a>
+              <a href="https://twitter.com/wczekalski" class="fa-twitter"></a>
+              <span class="clear"></span>
+            </div>
+          </div>
+          <div class="creator">
+            <img src="http://s.gravatar.com/avatar/fb75be7e6907d88b6f293eff2d43422b?s=240"/>
+            <span class="name">Jan<br/> Klausa</span>
+            <div class="links">
+              <a href="https://github.com/jklausa" class="fa-github"></a>
+              <a href="https://facebook.com/klausaa" class="fa-facebook"></a>
+              <a href="https://twitter.com/klausa_qwpx" class="fa-twitter"></a>
+              <span class="clear"></span>
+            </div>
+          </div>
+          <div class="creator">
+            <img src="http://s.gravatar.com/avatar/24a9c02d8fb9ded1019ad86f0fe3a36a?s=240"/>
+            <span class="name">Maciej Konieczny</span>
+            <div class="links">
+              <a href="http://narf.pl/" class="fa-link"></a>
+              <a href="https://github.com/narfdotpl" class="fa-github"></a>
+              <a href="https://twitter.com/narfdotpl" class="fa-twitter"></a>
+              <span class="clear"></span>
+            </div>
+          </div>
+          <span class="clear"></span>
+        </section>
+      </div>
+
+      <footer>
+          <h2>Questions?</h2>
+          <h4>Feel free to write to us at <a href="mailto:hello@swiftwarsaw.com">hello@swiftwarsaw.com</a></h4>
+          <h2>Follow Us</h2>
+          <div class="links">
+              <a href="https://github.com/SwiftWarsaw/SwiftWarsaw" class="fa fa-github"></a>
+              <a href="https://www.facebook.com/swiftwarsaw" class="fa fa-facebook"></a>
+              <a href="https://twitter.com/SwiftWarsaw" class="fa fa-twitter"></a>
+              <span class="clear"></span>
+          </div>
+          <span>Design created with love by <a href="http://sixbox.es">sixbox.es</a>
+      </footer>
+    </div>
+
+    <section  id="contact" class="fakefooter"></section>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
