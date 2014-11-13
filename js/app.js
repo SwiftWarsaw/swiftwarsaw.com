@@ -34,7 +34,7 @@ $('nav').onePageNav({
     }
 });
 
-var target_date = new Date('November, 27, 2014 19:00 UTC').getTime();
+var target_date = new Date('November, 27, 2014 19:00').getTime();
 setInterval(function () {
     updateCounter();
 }, 1000);
