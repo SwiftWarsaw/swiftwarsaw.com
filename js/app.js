@@ -58,7 +58,7 @@ function updateCounter() {
 
     // format countdown string + set tag value
     $('.counter .days strong').html(days);
-    $('.counter .hours strong').html(minutes);
+    $('.counter .hours strong').html(hours);
     $('.counter .minutes strong').html(minutes);
     $('.counter .seconds strong').html(seconds);
 }
