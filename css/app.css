@@ -594,6 +594,15 @@ header .counter div strong {
   color: white;
 }
 
+#sponsor {
+  padding: 40px 0px;
+  text-align: center;
+}
+
+#sponsor h2 {
+  margin-bottom: 40px;
+}
+
 /* line 1, ../scss/sections/_footer.scss */
 footer {
   padding: 80px 0px;
