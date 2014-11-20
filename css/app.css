@@ -385,10 +385,8 @@ header .counter div strong {
 }
 /* line 9, ../scss/sections/_who.scss */
 #who .speaker {
-  width: 30%;
+  width: 33%;
   float: left;
-  margin-right: 5%;
-  margin-left: 10%;
   position: relative;
   margin-bottom: 5em;
 }
@@ -429,7 +427,6 @@ header .counter div strong {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  width: 127px;
 }
 /* line 59, ../scss/sections/_who.scss */
 #who .speaker .links a {
@@ -484,6 +481,7 @@ header .counter div strong {
 #what div.agenda div.item {
   position: relative;
   padding-bottom: 10px;
+  margin-bottom: 1em;
 }
 /* line 25, ../scss/sections/_what.scss */
 #what div.agenda div.item img {
